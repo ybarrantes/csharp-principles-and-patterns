@@ -5,8 +5,8 @@ public sealed class NonThreadSafeSingleton : AbstractSingleton
     private static NonThreadSafeSingleton _instance;
 
     private NonThreadSafeSingleton()
+        : base()
     {
-        Id = Guid.NewGuid();
     }
     
     public static NonThreadSafeSingleton GetInstance()

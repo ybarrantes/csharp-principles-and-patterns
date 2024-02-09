@@ -6,8 +6,8 @@ public sealed class SimpleThreadSafeSingleton : AbstractSingleton
     private static readonly object _lock = new object();
 
     private SimpleThreadSafeSingleton()
+        : base()
     {
-        Id = Guid.NewGuid();
     }
     
     public static SimpleThreadSafeSingleton GetInstance()

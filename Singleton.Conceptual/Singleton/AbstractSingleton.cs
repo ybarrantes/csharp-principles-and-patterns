@@ -4,12 +4,13 @@ namespace Singleton.Conceptual.Singleton;
 
 public abstract class AbstractSingleton : ISingleton
 {
+    public Guid Id { get; }
+
     protected AbstractSingleton()
     {
         Id = Guid.NewGuid();
+        Console.WriteLine("Singleton created with Id: " + Id);
     }
-    
-    public Guid Id { get; }
 
     public virtual void DoSomething()
     {

@@ -6,8 +6,8 @@ public sealed class DoubleCheckThreadSafeSingleton : AbstractSingleton
     private static readonly object _lock = new object();
 
     private DoubleCheckThreadSafeSingleton()
+        : base()
     {
-        Id = Guid.NewGuid();
     }
     
     public static DoubleCheckThreadSafeSingleton GetInstance()
