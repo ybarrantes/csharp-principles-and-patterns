@@ -1,6 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-
-using LiskovSubstitution.Problem.Employees;
+﻿using LiskovSubstitution.Problem.Employees;
 using LiskovSubstitution.Problem.Employees.Contracts;
 
 IEmployee developer = new Developer();

@@ -1,6 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-
-using OpenClosed.Problem;
+﻿using OpenClosed.Problem;
 
 var reportingService = new ReportingService();
 var orders = new List<Order>

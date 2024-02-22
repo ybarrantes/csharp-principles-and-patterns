@@ -9,11 +9,11 @@ public abstract class AbstractSingleton : ISingleton
     protected AbstractSingleton()
     {
         Id = Guid.NewGuid();
-        Console.WriteLine("Singleton created with Id: " + Id);
+        Console.WriteLine($"Singleton created with Id: {Id}");
     }
 
     public virtual void DoSomething()
     {
-        Console.WriteLine(Id);
+        Console.WriteLine("Singleton is doing something!");
     }
 }

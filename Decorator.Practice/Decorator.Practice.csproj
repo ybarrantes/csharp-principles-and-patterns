@@ -2,9 +2,15 @@
 
     <PropertyGroup>
         <OutputType>Exe</OutputType>
-        <TargetFramework>net6.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        <LangVersion>latest</LangVersion>
+        <TargetFramework>net8.0</TargetFramework>
     </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Decorator.Conceptual\Decorator.Conceptual.csproj" />
+      <ProjectReference Include="..\Singleton.Conceptual\Singleton.Conceptual.csproj" />
+    </ItemGroup>
 
 </Project>

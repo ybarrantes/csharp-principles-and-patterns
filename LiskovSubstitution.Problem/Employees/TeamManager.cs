@@ -5,7 +5,7 @@ namespace LiskovSubstitution.Problem.Employees;
 public class TeamManager : IEmployee
 {
     public Guid Id { get; set; }
-    public string Name { get; set; }
+    public string? Name { get; set; }
 
     public void Code()
     {

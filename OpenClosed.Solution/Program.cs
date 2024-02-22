@@ -1,6 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-
-using OpenClosed.Solution.Contracts;
+﻿using OpenClosed.Solution.Contracts;
 using OpenClosed.Solution.Models;
 using OpenClosed.Solution.Services;
 

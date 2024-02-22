@@ -1,6 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-
-using SingleResponsibility.Solution.Models;
+﻿using SingleResponsibility.Solution.Models;
 using SingleResponsibility.Solution.Services;
 
 var orderRepository = new OrderRepository();
