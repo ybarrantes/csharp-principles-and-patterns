@@ -1,7 +1,7 @@
 ﻿using Singleton.Conceptual.Contracts;
 using Singleton.Conceptual.Singleton;
 
-namespace Singleton.Practice.TestSingleton;
+namespace Singleton.Conceptual.Impl.TestSingleton;
 
 public static class SingletonFactory
 {

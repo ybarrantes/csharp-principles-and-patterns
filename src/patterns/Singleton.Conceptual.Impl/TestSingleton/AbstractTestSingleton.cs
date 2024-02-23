@@ -1,7 +1,7 @@
 ﻿using Singleton.Conceptual.Contracts;
-using Singleton.Practice.Contracts;
+using Singleton.Conceptual.Impl.Contracts;
 
-namespace Singleton.Practice.TestSingleton;
+namespace Singleton.Conceptual.Impl.TestSingleton;
 
 public abstract class AbstractTestSingleton : ITestSingleton
 {

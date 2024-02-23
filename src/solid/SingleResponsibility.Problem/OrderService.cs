@@ -17,10 +17,9 @@ internal class OrderService
         }
     }
     
-    private bool InsertOrder(Order order)
+    private void InsertOrder(Order order)
     {
         Console.WriteLine($"Order {order.Id} inserted successfully in the database");
-        return true;
     }
     
     private Invoice GenerateInvoice(Order order)
@@ -29,10 +28,9 @@ internal class OrderService
         return new Invoice();
     }
     
-    private bool SendEmail(Invoice invoice)
+    private void SendEmail(Invoice invoice)
     {
         Console.WriteLine($"Email sent with invoice {invoice.Id}");
-        return true;
     }
 }
 

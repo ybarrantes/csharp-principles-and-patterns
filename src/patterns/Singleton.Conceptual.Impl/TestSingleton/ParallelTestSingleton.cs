@@ -1,4 +1,4 @@
-﻿namespace Singleton.Practice.TestSingleton;
+﻿namespace Singleton.Conceptual.Impl.TestSingleton;
 
 public class ParallelTestSingleton : AbstractTestSingleton
 {

@@ -1,5 +1,5 @@
 ﻿using Singleton.Conceptual.Singleton;
-using Singleton.Conceptual.TestSingleton;
+using Singleton.Conceptual.Impl.TestSingleton;
 
 Console.WriteLine("------------------------");
 Console.WriteLine("starting...");

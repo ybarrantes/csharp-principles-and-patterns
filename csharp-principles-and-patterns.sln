@@ -26,29 +26,31 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Singleton", "01. Single
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Decorator", "01. Decorator", "{79BAFEBE-9085-45F1-9887-5EA272F3CE53}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton.Practice", "Singleton.Practice\Singleton.Practice.csproj", "{94C58C4B-44DA-4CC2-8F1D-2B03CF92DFA9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton.Conceptual.Impl", "src\patterns\Singleton.Conceptual.Impl\Singleton.Conceptual.Impl.csproj", "{94C58C4B-44DA-4CC2-8F1D-2B03CF92DFA9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton.Conceptual", "Singleton.Conceptual\Singleton.Conceptual.csproj", "{3166C7CA-C6CD-4A60-82C7-9CFD559FFCE7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton.Conceptual", "src\patterns\Singleton.Conceptual\Singleton.Conceptual.csproj", "{3166C7CA-C6CD-4A60-82C7-9CFD559FFCE7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Strategy", "01. Strategy", "{5A62424C-6DFB-4C86-8A51-03C54EE87DF4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator.Conceptual", "Decorator.Conceptual\Decorator.Conceptual.csproj", "{57291707-6007-4E45-9D1F-A87C315AF454}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator.Conceptual", "src\patterns\Decorator.Conceptual\Decorator.Conceptual.csproj", "{57291707-6007-4E45-9D1F-A87C315AF454}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator.Practice", "Decorator.Practice\Decorator.Practice.csproj", "{76037C3E-E26C-4300-A530-6343F2AC2387}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator.Conceptual.Impl", "src\patterns\Decorator.Conceptual.Impl\Decorator.Conceptual.Impl.csproj", "{76037C3E-E26C-4300-A530-6343F2AC2387}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy.Conceptual", "Strategy.Conceptual\Strategy.Conceptual.csproj", "{AAEEF3AF-EC74-470C-AFE5-5A7DE35288D8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingleResponsibility.Problem", "src\solid\SingleResponsibility.Problem\SingleResponsibility.Problem.csproj", "{072F3E9E-A70D-4F28-B345-518A5BF66C0C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingleResponsibility.Problem", "SingleResponsibility.Problem\SingleResponsibility.Problem.csproj", "{072F3E9E-A70D-4F28-B345-518A5BF66C0C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingleResponsibility.Solution", "src\solid\SingleResponsibility.Solution\SingleResponsibility.Solution.csproj", "{37BD59F5-104A-4FB4-B35D-8558601CD9CC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingleResponsibility.Solution", "SingleResponsibility.Solution\SingleResponsibility.Solution.csproj", "{37BD59F5-104A-4FB4-B35D-8558601CD9CC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenClosed.Problem", "src\solid\OpenClosed.Problem\OpenClosed.Problem.csproj", "{F57E41DE-BFDC-4EA3-BEB3-9B2411E69A49}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenClosed.Problem", "OpenClosed.Problem\OpenClosed.Problem.csproj", "{F57E41DE-BFDC-4EA3-BEB3-9B2411E69A49}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenClosed.Solution", "src\solid\OpenClosed.Solution\OpenClosed.Solution.csproj", "{9F03DC0C-65A4-4A75-B123-41CE67BD79D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenClosed.Solution", "OpenClosed.Solution\OpenClosed.Solution.csproj", "{9F03DC0C-65A4-4A75-B123-41CE67BD79D7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiskovSubstitution.Problem", "src\solid\LiskovSubstitution.Problem\LiskovSubstitution.Problem.csproj", "{1A14E0EB-F13D-4452-8A3D-531C4A6B8509}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiskovSubstitution.Problem", "LiskovSubstitution.Problem\LiskovSubstitution.Problem.csproj", "{1A14E0EB-F13D-4452-8A3D-531C4A6B8509}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiskovSubstitution.Solution", "src\solid\LiskovSubstitution.Solution\LiskovSubstitution.Solution.csproj", "{0432BBCB-CBFF-49F6-AF28-C8B12094CAB2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiskovSubstitution.Solution", "LiskovSubstitution.Solution\LiskovSubstitution.Solution.csproj", "{0432BBCB-CBFF-49F6-AF28-C8B12094CAB2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton.Practice.Logger.Problem", "src\patterns\Singleton.Practice.Logger.Problem\Singleton.Practice.Logger.Problem.csproj", "{0CB43C1D-FEB5-4D74-B070-EF007A6EB996}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator.Problem.Discounts", "src\patterns\Decorator.Problem.Discounts\Decorator.Problem.Discounts.csproj", "{6D6443F3-172E-4552-8DD6-6425EFD3B77C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -72,10 +74,6 @@ Global
 		{76037C3E-E26C-4300-A530-6343F2AC2387}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{76037C3E-E26C-4300-A530-6343F2AC2387}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{76037C3E-E26C-4300-A530-6343F2AC2387}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AAEEF3AF-EC74-470C-AFE5-5A7DE35288D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AAEEF3AF-EC74-470C-AFE5-5A7DE35288D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AAEEF3AF-EC74-470C-AFE5-5A7DE35288D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AAEEF3AF-EC74-470C-AFE5-5A7DE35288D8}.Release|Any CPU.Build.0 = Release|Any CPU
 		{072F3E9E-A70D-4F28-B345-518A5BF66C0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{072F3E9E-A70D-4F28-B345-518A5BF66C0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{072F3E9E-A70D-4F28-B345-518A5BF66C0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -100,6 +98,14 @@ Global
 		{0432BBCB-CBFF-49F6-AF28-C8B12094CAB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0432BBCB-CBFF-49F6-AF28-C8B12094CAB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0432BBCB-CBFF-49F6-AF28-C8B12094CAB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CB43C1D-FEB5-4D74-B070-EF007A6EB996}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CB43C1D-FEB5-4D74-B070-EF007A6EB996}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CB43C1D-FEB5-4D74-B070-EF007A6EB996}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CB43C1D-FEB5-4D74-B070-EF007A6EB996}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D6443F3-172E-4552-8DD6-6425EFD3B77C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D6443F3-172E-4552-8DD6-6425EFD3B77C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D6443F3-172E-4552-8DD6-6425EFD3B77C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D6443F3-172E-4552-8DD6-6425EFD3B77C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{CD2C152F-6DCA-43BA-9C3F-FC54CE5A949A} = {6790A096-082F-4D29-8BDA-0F07E08DC4C2}
@@ -118,12 +124,13 @@ Global
 		{5A62424C-6DFB-4C86-8A51-03C54EE87DF4} = {6DC1A3A6-03BC-42E4-8477-2356CF4C5C5B}
 		{57291707-6007-4E45-9D1F-A87C315AF454} = {79BAFEBE-9085-45F1-9887-5EA272F3CE53}
 		{76037C3E-E26C-4300-A530-6343F2AC2387} = {79BAFEBE-9085-45F1-9887-5EA272F3CE53}
-		{AAEEF3AF-EC74-470C-AFE5-5A7DE35288D8} = {5A62424C-6DFB-4C86-8A51-03C54EE87DF4}
 		{072F3E9E-A70D-4F28-B345-518A5BF66C0C} = {263F1121-EC88-4B0E-96A0-89B7E24CC266}
 		{37BD59F5-104A-4FB4-B35D-8558601CD9CC} = {263F1121-EC88-4B0E-96A0-89B7E24CC266}
 		{F57E41DE-BFDC-4EA3-BEB3-9B2411E69A49} = {A8E19079-E163-4304-A549-9CB29B6D845B}
 		{9F03DC0C-65A4-4A75-B123-41CE67BD79D7} = {A8E19079-E163-4304-A549-9CB29B6D845B}
 		{1A14E0EB-F13D-4452-8A3D-531C4A6B8509} = {4044AB8F-6C89-4BAB-A8C2-7EC3EC540422}
 		{0432BBCB-CBFF-49F6-AF28-C8B12094CAB2} = {4044AB8F-6C89-4BAB-A8C2-7EC3EC540422}
+		{0CB43C1D-FEB5-4D74-B070-EF007A6EB996} = {79B242A2-0963-4E13-BD71-A6022E57D989}
+		{6D6443F3-172E-4552-8DD6-6425EFD3B77C} = {79BAFEBE-9085-45F1-9887-5EA272F3CE53}
 	EndGlobalSection
 EndGlobal

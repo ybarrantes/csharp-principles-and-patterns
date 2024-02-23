@@ -1,6 +1,6 @@
 ﻿using Singleton.Conceptual.Contracts;
 
-namespace Singleton.Practice.Contracts;
+namespace Singleton.Conceptual.Impl.Contracts;
 
 public interface ITestSingleton
 {
