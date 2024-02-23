@@ -52,9 +52,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton.Practice.Logger.P
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator.Practice.Discounts.Problem", "src\patterns\Decorator.Practice.Discounts.Problem\Decorator.Practice.Discounts.Problem.csproj", "{6D6443F3-172E-4552-8DD6-6425EFD3B77C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator.Practice.Discounts.Shared", "Decorator.Practice.Discounts.Shared\Decorator.Practice.Discounts.Shared.csproj", "{6F51B199-4933-44EF-9893-9940CA391BE9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator.Practice.Discounts.Shared", "src\patterns\Decorator.Practice.Discounts.Shared\Decorator.Practice.Discounts.Shared.csproj", "{6F51B199-4933-44EF-9893-9940CA391BE9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator.Practice.Discounts.Solution", "Decorator.Practice.Discounts.Solution\Decorator.Practice.Discounts.Solution.csproj", "{597DE39A-DF8F-4C76-97A3-966D69EDE1B9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator.Practice.Discounts.Solution", "src\patterns\Decorator.Practice.Discounts.Solution\Decorator.Practice.Discounts.Solution.csproj", "{597DE39A-DF8F-4C76-97A3-966D69EDE1B9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton.Practice.Logger.Solution", "src\patterns\Singleton.Practice.Logger.Solution\Singleton.Practice.Logger.Solution.csproj", "{2E284F4C-21CD-40B2-A96A-1AD819BF9324}"
 EndProject
