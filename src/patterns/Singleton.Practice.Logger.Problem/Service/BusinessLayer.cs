@@ -1,4 +1,5 @@
 ﻿using Singleton.Practice.Logger.Problem.Log;
+using Singleton.Practice.Logger.Problem.Logger;
 
 namespace Singleton.Practice.Logger.Problem.Service;
 
