@@ -1,9 +1,15 @@
-﻿using Singleton.Practice.Logger.Problem.Logger;
-using Singleton.Practice.Logger.Problem.Service;
+﻿using Singleton.Practice.Logger.Shared.Logger;
+using Singleton.Practice.Logger.Shared.Service;
 
-Scope();
-Scope();
-Scope();
+Console.WriteLine("Singleton Pattern Practice");
+Console.WriteLine();
+
+Console.WriteLine("Sequential Execution");
+Enumerable.Range(0, 5).ToList().ForEach(_ => Scope());
+Console.WriteLine();
+
+Console.WriteLine("Parallel Execution");
+Parallel.ForEach(Enumerable.Range(0, 5), _ => Scope());
 
 return;
 
@@ -17,4 +23,5 @@ static void Scope()
     dataLayer.DoSomething();
     
     logger.Flush();
+    Console.WriteLine();
 }

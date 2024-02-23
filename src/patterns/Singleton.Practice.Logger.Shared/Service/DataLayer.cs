@@ -1,6 +1,6 @@
-﻿using Singleton.Practice.Logger.Problem.Logger;
+﻿using Singleton.Practice.Logger.Shared.Contracts;
 
-namespace Singleton.Practice.Logger.Problem.Service;
+namespace Singleton.Practice.Logger.Shared.Service;
 
 public class DataLayer(ILogger logger) : IServiceLayer
 {

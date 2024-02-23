@@ -1,4 +1,4 @@
-﻿namespace Singleton.Practice.Logger.Problem.Logger;
+﻿namespace Singleton.Practice.Logger.Shared.Contracts;
 
 public interface ILogger
 {

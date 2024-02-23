@@ -58,6 +58,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator.Practice.Discount
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton.Practice.Logger.Solution", "src\patterns\Singleton.Practice.Logger.Solution\Singleton.Practice.Logger.Solution.csproj", "{2E284F4C-21CD-40B2-A96A-1AD819BF9324}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton.Practice.Logger.Shared", "src\patterns\Singleton.Practice.Logger.Shared\Singleton.Practice.Logger.Shared.csproj", "{16D275CB-74D0-4387-B4D7-DCAE8F8B120B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -124,6 +126,10 @@ Global
 		{2E284F4C-21CD-40B2-A96A-1AD819BF9324}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E284F4C-21CD-40B2-A96A-1AD819BF9324}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E284F4C-21CD-40B2-A96A-1AD819BF9324}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16D275CB-74D0-4387-B4D7-DCAE8F8B120B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16D275CB-74D0-4387-B4D7-DCAE8F8B120B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16D275CB-74D0-4387-B4D7-DCAE8F8B120B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16D275CB-74D0-4387-B4D7-DCAE8F8B120B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{CD2C152F-6DCA-43BA-9C3F-FC54CE5A949A} = {6790A096-082F-4D29-8BDA-0F07E08DC4C2}
@@ -153,5 +159,6 @@ Global
 		{6F51B199-4933-44EF-9893-9940CA391BE9} = {79BAFEBE-9085-45F1-9887-5EA272F3CE53}
 		{597DE39A-DF8F-4C76-97A3-966D69EDE1B9} = {79BAFEBE-9085-45F1-9887-5EA272F3CE53}
 		{2E284F4C-21CD-40B2-A96A-1AD819BF9324} = {79B242A2-0963-4E13-BD71-A6022E57D989}
+		{16D275CB-74D0-4387-B4D7-DCAE8F8B120B} = {79B242A2-0963-4E13-BD71-A6022E57D989}
 	EndGlobalSection
 EndGlobal
