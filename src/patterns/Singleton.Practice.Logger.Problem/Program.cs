@@ -1,4 +1,4 @@
-﻿using Singleton.Practice.Logger.Problem.Log;
+﻿using Singleton.Practice.Logger.Problem.Logger;
 using Singleton.Practice.Logger.Problem.Service;
 
 Scope();

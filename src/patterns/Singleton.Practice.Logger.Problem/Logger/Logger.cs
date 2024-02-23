@@ -1,6 +1,4 @@
-﻿using Singleton.Practice.Logger.Problem.Logger;
-
-namespace Singleton.Practice.Logger.Problem.Log;
+﻿namespace Singleton.Practice.Logger.Problem.Logger;
 
 public class Logger : ILogger
 {
