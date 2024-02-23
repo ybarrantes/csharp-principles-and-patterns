@@ -50,7 +50,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiskovSubstitution.Solution
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton.Practice.Logger.Problem", "src\patterns\Singleton.Practice.Logger.Problem\Singleton.Practice.Logger.Problem.csproj", "{0CB43C1D-FEB5-4D74-B070-EF007A6EB996}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator.Problem.Discounts", "src\patterns\Decorator.Problem.Discounts\Decorator.Problem.Discounts.csproj", "{6D6443F3-172E-4552-8DD6-6425EFD3B77C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator.Practice.Discounts.Problem", "src\patterns\Decorator.Practice.Discounts.Problem\Decorator.Practice.Discounts.Problem.csproj", "{6D6443F3-172E-4552-8DD6-6425EFD3B77C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator.Practice.Discounts.Shared", "Decorator.Practice.Discounts.Shared\Decorator.Practice.Discounts.Shared.csproj", "{6F51B199-4933-44EF-9893-9940CA391BE9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -106,6 +108,10 @@ Global
 		{6D6443F3-172E-4552-8DD6-6425EFD3B77C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D6443F3-172E-4552-8DD6-6425EFD3B77C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D6443F3-172E-4552-8DD6-6425EFD3B77C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F51B199-4933-44EF-9893-9940CA391BE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F51B199-4933-44EF-9893-9940CA391BE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F51B199-4933-44EF-9893-9940CA391BE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F51B199-4933-44EF-9893-9940CA391BE9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{CD2C152F-6DCA-43BA-9C3F-FC54CE5A949A} = {6790A096-082F-4D29-8BDA-0F07E08DC4C2}
@@ -132,5 +138,6 @@ Global
 		{0432BBCB-CBFF-49F6-AF28-C8B12094CAB2} = {4044AB8F-6C89-4BAB-A8C2-7EC3EC540422}
 		{0CB43C1D-FEB5-4D74-B070-EF007A6EB996} = {79B242A2-0963-4E13-BD71-A6022E57D989}
 		{6D6443F3-172E-4552-8DD6-6425EFD3B77C} = {79BAFEBE-9085-45F1-9887-5EA272F3CE53}
+		{6F51B199-4933-44EF-9893-9940CA391BE9} = {79BAFEBE-9085-45F1-9887-5EA272F3CE53}
 	EndGlobalSection
 EndGlobal
