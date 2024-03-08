@@ -2,5 +2,7 @@
 
 public enum SizeType
 {
-    
+    Medium,
+    Family,
+    Individual,
 }
