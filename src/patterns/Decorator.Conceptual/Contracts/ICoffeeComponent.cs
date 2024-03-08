@@ -1,6 +1,6 @@
 ﻿namespace Decorator.Conceptual.Contracts;
 
-public interface ICoffee
+public interface ICoffeeComponent
 {
     string GetDescription();
     double GetCost();

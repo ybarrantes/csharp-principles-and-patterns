@@ -1,4 +1,5 @@
-﻿using Decorator.Practice.Discounts.Shared.Models;
+﻿using Decorator.Practice.Discounts.Shared.Helpers;
+using Decorator.Practice.Discounts.Shared.Models;
 using Decorator.Practice.Discounts.Solution.Contracts;
 
 namespace Decorator.Practice.Discounts.Solution.Wrapper;
@@ -16,7 +17,7 @@ public abstract class AbstractDiscountPriceDecorator(IDiscountPriceWrapper disco
     {
         var price = DiscountPriceWrapperBase.GetPriceType();
         var baseAmount = price.BaseAmount?.Value ?? 0;
-        var baseCurrencyCode = price.BaseAmount?.CurCode ?? "EUR";
+        var baseCurrencyCode = price.BaseAmount?.CurCode ?? GlobalConstantsHelper.DefaultCurrency;
 
         var discountType = GetDiscountType(baseAmount, GetDiscountPercent(), baseCurrencyCode);
         

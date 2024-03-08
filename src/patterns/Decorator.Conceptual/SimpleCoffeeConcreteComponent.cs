@@ -2,7 +2,7 @@
 
 namespace Decorator.Conceptual;
 
-public class SimpleCoffee : ICoffee
+public class SimpleCoffeeConcreteComponent : ICoffeeComponent
 {
     public string GetDescription()
     {

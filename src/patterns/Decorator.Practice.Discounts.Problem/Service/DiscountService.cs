@@ -1,4 +1,5 @@
 ﻿using Decorator.Practice.Discounts.Problem.Contracts;
+using Decorator.Practice.Discounts.Shared.Helpers;
 using Decorator.Practice.Discounts.Shared.Models;
 
 namespace Decorator.Practice.Discounts.Problem.Service;
@@ -7,11 +8,11 @@ public class DiscountService : IDiscountService
 {
     private readonly Dictionary<string, decimal> _discounts = new()
     {
-        { "RESIDENT", 0.75m },
-        { "FN1", 0.05m },
-        { "FN2", 0.10m },
-        { "RFN1", 0.80m },
-        { "RFN2", 0.85m }
+        { ResidentConstantsHelper.Resident, 0.75m },
+        { ResidentConstantsHelper.LargeFamily, 0.05m },
+        { ResidentConstantsHelper.SpecialLargeFamily, 0.10m },
+        { ResidentConstantsHelper.ResidentLargeFamily, 0.80m },
+        { ResidentConstantsHelper.ResidentSpecialLargeFamily, 0.85m }
     };
     
     public PriceType GetDiscountedPrice(PriceType price, string discountCode)

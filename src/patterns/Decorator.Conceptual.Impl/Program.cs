@@ -2,34 +2,34 @@
 using Decorator.Conceptual.Contracts;
 using Decorator.Conceptual.Decorators;
 
-var coffee = new SimpleCoffee();
+var coffee = new SimpleCoffeeConcreteComponent();
 PrintCoffeeInfo(coffee);
 
-var coffeeWithMilk = new MilkDecorator(coffee);
+var coffeeWithMilk = new MilkConcreteDecorator(coffee);
 PrintCoffeeInfo(coffeeWithMilk);
 
-var coffeeWithMilkAndPacking = new PackingDecorator(coffeeWithMilk);
+var coffeeWithMilkAndPacking = new PackingConcreteDecorator(coffeeWithMilk);
 PrintCoffeeInfo(coffeeWithMilkAndPacking);
 
 var carajillo = GetCarajillo();
 PrintCoffeeInfo(carajillo);
 
-var carajilloWithPacking = new PackingDecorator(carajillo);
+var carajilloWithPacking = new PackingConcreteDecorator(carajillo);
 PrintCoffeeInfo(carajilloWithPacking);
 
 return;
 
-static void PrintCoffeeInfo(ICoffee coffee)
+static void PrintCoffeeInfo(ICoffeeComponent coffee)
 {
     Console.WriteLine($"Cost: {coffee.GetCost()} | Description: {coffee.GetDescription()}");
 }
 
-static ICoffee GetCarajillo()
+static ICoffeeComponent GetCarajillo()
 {
-    ICoffee coffee = new SimpleCoffee();
-    coffee = new MilkDecorator(coffee);
-    coffee = new IceDecorator(coffee);
-    coffee = new BaileysDecorator(coffee);
+    ICoffeeComponent coffeeComponent = new SimpleCoffeeConcreteComponent();
+    coffeeComponent = new MilkConcreteDecorator(coffeeComponent);
+    coffeeComponent = new IceConcreteDecorator(coffeeComponent);
+    coffeeComponent = new BaileysConcreteDecorator(coffeeComponent);
     
-    return coffee;
+    return coffeeComponent;
 }

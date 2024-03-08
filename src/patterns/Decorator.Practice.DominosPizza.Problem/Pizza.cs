@@ -10,6 +10,7 @@ public class Pizza : IPizza
     public SizeType SizeType { get; set; }
     public SauceType SauceType { get; set; }
     public ExtraCheeseType ExtraCheeseType { get; set; }
+    
     public string GetDescription()
     {
         throw new NotImplementedException();

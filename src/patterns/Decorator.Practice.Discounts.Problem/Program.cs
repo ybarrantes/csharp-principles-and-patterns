@@ -1,5 +1,6 @@
 ﻿using Decorator.Practice.Discounts.Problem.Service;
 using Decorator.Practice.Discounts.Shared;
+using Decorator.Practice.Discounts.Shared.Helpers;
 using Decorator.Practice.Discounts.Shared.Models;
 
 var discountService = new DiscountService();
@@ -23,9 +24,7 @@ var simplePrice = new PriceType
 Console.WriteLine("Simple price:");
 SharedUtils.WritePrice(simplePrice);
 
-var discounts = new List<string> { "RESIDENT", "FN1", "FN2", "RFN1", "RFN2" };
-
-foreach (var discount in discounts)
+foreach (var discount in ResidentConstantsHelper.DiscountTypes)
 {
     Console.WriteLine($"{discount} discount:");
     var discountedPrice = discountService.GetDiscountedPrice(simplePrice, discount);

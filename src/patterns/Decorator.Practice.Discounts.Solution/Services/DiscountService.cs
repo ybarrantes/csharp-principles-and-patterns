@@ -1,4 +1,5 @@
-﻿using Decorator.Practice.Discounts.Shared.Models;
+﻿using Decorator.Practice.Discounts.Shared.Helpers;
+using Decorator.Practice.Discounts.Shared.Models;
 using Decorator.Practice.Discounts.Shared.Types;
 using Decorator.Practice.Discounts.Solution.Contracts;
 using Decorator.Practice.Discounts.Solution.Wrapper;
@@ -9,11 +10,11 @@ public class DiscountService : IDiscountService
 {
     private readonly Dictionary<string, ResidentTypes> _discountTypes = new()
     {
-        { "RESIDENT", ResidentTypes.Resident },
-        { "FN1", ResidentTypes.LargeFamily },
-        { "FN2", ResidentTypes.SpecialLargeFamily },
-        { "RFN1", ResidentTypes.Resident | ResidentTypes.LargeFamily },
-        { "RFN2", ResidentTypes.Resident | ResidentTypes.SpecialLargeFamily }
+        { ResidentConstantsHelper.Resident, ResidentTypes.Resident },
+        { ResidentConstantsHelper.LargeFamily, ResidentTypes.LargeFamily },
+        { ResidentConstantsHelper.SpecialLargeFamily, ResidentTypes.SpecialLargeFamily },
+        { ResidentConstantsHelper.ResidentLargeFamily, ResidentTypes.Resident | ResidentTypes.LargeFamily },
+        { ResidentConstantsHelper.ResidentSpecialLargeFamily, ResidentTypes.Resident | ResidentTypes.SpecialLargeFamily }
     };
     
     public PriceType AddDiscount(PriceType priceType, string discountType)
