@@ -8,7 +8,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Decorator.Practice.Discounts.Shared\Decorator.Practice.Discounts.Shared.csproj" />
+      <ProjectReference Include="..\Decorator.Practice.Brotato.Shared\Decorator.Practice.Brotato.Shared.csproj" />
     </ItemGroup>
 
 </Project>

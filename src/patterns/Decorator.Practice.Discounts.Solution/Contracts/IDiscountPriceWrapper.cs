@@ -5,5 +5,5 @@ namespace Decorator.Practice.Discounts.Solution.Contracts;
 public interface IDiscountPriceWrapper
 {
     public decimal GetDiscountPercent();
-    PriceType GetPrice();
+    PriceType GetPriceType();
 }

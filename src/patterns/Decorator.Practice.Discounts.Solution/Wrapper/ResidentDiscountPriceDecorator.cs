@@ -1,6 +1,6 @@
 ﻿using Decorator.Practice.Discounts.Solution.Contracts;
 
-namespace Decorator.Practice.Discounts.Solution.Decorator;
+namespace Decorator.Practice.Discounts.Solution.Wrapper;
 
 public class ResidentDiscountPriceDecorator(IDiscountPriceWrapper discountPriceWrapper) : AbstractDiscountPriceDecorator(discountPriceWrapper)
 {
@@ -8,6 +8,6 @@ public class ResidentDiscountPriceDecorator(IDiscountPriceWrapper discountPriceW
 
     public override decimal GetDiscountPercent()
     {
-        return DiscountPriceWrapper.GetDiscountPercent() + DiscountPercent;
+        return DiscountPriceWrapperBase.GetDiscountPercent() + DiscountPercent;
     }
 }

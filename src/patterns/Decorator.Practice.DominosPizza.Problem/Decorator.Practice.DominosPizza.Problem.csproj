@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Decorator.Practice.DominosPizza.Shared\Decorator.Practice.DominosPizza.Shared.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Pizzas\Medium\Finizzima\" />
+      <Folder Include="Pizzas\Medium\MozzarellaRoll\" />
+      <Folder Include="Pizzas\Medium\Original\BourbonSauce\" />
+      <Folder Include="Pizzas\Medium\Original\TomatoSauce\" />
+      <Folder Include="Pizzas\Medium\Pan\" />
+      <Folder Include="Pizzas\Medium\RollRoulette\" />
+    </ItemGroup>
+
+</Project>
