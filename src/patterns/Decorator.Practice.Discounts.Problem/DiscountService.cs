@@ -1,8 +1,8 @@
-﻿using Decorator.Practice.Discounts.Problem.Contracts;
+﻿using Decorator.Practice.Discounts.Shared.Contracts;
 using Decorator.Practice.Discounts.Shared.Helpers;
 using Decorator.Practice.Discounts.Shared.Models;
 
-namespace Decorator.Practice.Discounts.Problem.Service;
+namespace Decorator.Practice.Discounts.Problem;
 
 public class DiscountService : IDiscountService
 {
@@ -15,31 +15,31 @@ public class DiscountService : IDiscountService
         { ResidentConstantsHelper.ResidentSpecialLargeFamily, 0.85m }
     };
     
-    public PriceType GetDiscountedPrice(PriceType price, string discountCode)
+    public PriceType GetDiscountedPrice(PriceType priceType, string discountCode)
     {
         if (!_discounts.TryGetValue(discountCode, out var discount))
         {
-            return price;
+            return priceType;
         }
 
         var discountType = new DiscountType
         {
             DiscountAmount = new AmountType
             {
-                Value = price.BaseAmount.Value * discount,
-                CurCode = price.BaseAmount.CurCode
+                Value = priceType.BaseAmount.Value * discount,
+                CurCode = priceType.BaseAmount.CurCode
             },
             DiscountPercent = discount
         };
     
         return new PriceType
         {
-            BaseAmount = price.BaseAmount,
+            BaseAmount = priceType.BaseAmount,
             Discount = discountType,
             TotalAmount = new AmountType
             {
-                Value = price.BaseAmount.Value - discountType.DiscountAmount.Value,
-                CurCode = price.BaseAmount.CurCode
+                Value = priceType.BaseAmount.Value - discountType.DiscountAmount.Value,
+                CurCode = priceType.BaseAmount.CurCode
             }
         };
     }

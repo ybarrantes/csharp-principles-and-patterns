@@ -1,10 +1,11 @@
-﻿using Decorator.Practice.Discounts.Shared.Helpers;
+﻿using Decorator.Practice.Discounts.Shared.Contracts;
+using Decorator.Practice.Discounts.Shared.Helpers;
 using Decorator.Practice.Discounts.Shared.Models;
 using Decorator.Practice.Discounts.Shared.Types;
 using Decorator.Practice.Discounts.Solution.Contracts;
 using Decorator.Practice.Discounts.Solution.Wrapper;
 
-namespace Decorator.Practice.Discounts.Solution.Services;
+namespace Decorator.Practice.Discounts.Solution;
 
 public class DiscountService : IDiscountService
 {
@@ -17,9 +18,9 @@ public class DiscountService : IDiscountService
         { ResidentConstantsHelper.ResidentSpecialLargeFamily, ResidentTypes.Resident | ResidentTypes.SpecialLargeFamily }
     };
     
-    public PriceType AddDiscount(PriceType priceType, string discountType)
+    public PriceType GetDiscountedPrice(PriceType priceType, string discountCode)
     {
-        var residentType = _discountTypes.GetValueOrDefault(discountType, ResidentTypes.None);
+        var residentType = _discountTypes.GetValueOrDefault(discountCode, ResidentTypes.None);
         
         if (residentType == ResidentTypes.None)
         {

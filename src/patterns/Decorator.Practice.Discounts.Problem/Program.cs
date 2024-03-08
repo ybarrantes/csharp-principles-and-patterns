@@ -1,4 +1,4 @@
-﻿using Decorator.Practice.Discounts.Problem.Service;
+﻿using Decorator.Practice.Discounts.Problem;
 using Decorator.Practice.Discounts.Shared;
 using Decorator.Practice.Discounts.Shared.Helpers;
 using Decorator.Practice.Discounts.Shared.Models;

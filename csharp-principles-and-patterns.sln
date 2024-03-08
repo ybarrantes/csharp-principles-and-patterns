@@ -72,6 +72,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator.Practice.DominosP
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator.Practice.DominosPizza.Solution", "src\patterns\Decorator.Practice.DominosPizza.Solution\Decorator.Practice.DominosPizza.Solution.csproj", "{37BBA24E-A217-41CA-BBC2-23F7891C2FC1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator.Practice.Discounts.UnitTests", "tests\patterns\Decorator.Practice.Discounts.UnitTests\Decorator.Practice.Discounts.UnitTests.csproj", "{B44A416D-5650-47AC-8020-558C3AF33532}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -166,6 +168,10 @@ Global
 		{37BBA24E-A217-41CA-BBC2-23F7891C2FC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{37BBA24E-A217-41CA-BBC2-23F7891C2FC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{37BBA24E-A217-41CA-BBC2-23F7891C2FC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B44A416D-5650-47AC-8020-558C3AF33532}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B44A416D-5650-47AC-8020-558C3AF33532}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B44A416D-5650-47AC-8020-558C3AF33532}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B44A416D-5650-47AC-8020-558C3AF33532}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{CD2C152F-6DCA-43BA-9C3F-FC54CE5A949A} = {6790A096-082F-4D29-8BDA-0F07E08DC4C2}
@@ -202,5 +208,6 @@ Global
 		{652D01E0-ECF3-4F89-9A40-ADCF3DA8F77D} = {79BAFEBE-9085-45F1-9887-5EA272F3CE53}
 		{6FC31954-70A6-46B6-8AA7-F2B84952CA80} = {79BAFEBE-9085-45F1-9887-5EA272F3CE53}
 		{37BBA24E-A217-41CA-BBC2-23F7891C2FC1} = {79BAFEBE-9085-45F1-9887-5EA272F3CE53}
+		{B44A416D-5650-47AC-8020-558C3AF33532} = {79BAFEBE-9085-45F1-9887-5EA272F3CE53}
 	EndGlobalSection
 EndGlobal
