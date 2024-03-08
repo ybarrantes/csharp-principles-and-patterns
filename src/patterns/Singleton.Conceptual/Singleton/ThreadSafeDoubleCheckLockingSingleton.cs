@@ -15,6 +15,7 @@ public sealed class ThreadSafeDoubleCheckLockingSingleton : AbstractSingleton
     {
         if (_instance != null)
         {
+            Console.WriteLine("\tInstance already exists.");
             return _instance;
         }
         

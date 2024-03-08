@@ -6,6 +6,11 @@ public class Logger : ILogger
 {
     private readonly Queue<string> _logQueue = new();
     private readonly Guid _id = Guid.NewGuid();
+
+    public Logger()
+    {
+        Console.WriteLine($"Logger {_id} created");
+    }
     
     public void LogDebug(string message)
     {
